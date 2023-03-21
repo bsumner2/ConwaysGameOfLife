@@ -43,10 +43,10 @@ typedef struct
 
 
 typedef struct{
-    Coordinate pos;
-    Coordinate *neighbors;
-    int num_neigbors;
-    uint8 alive, was_alive;
+  Coordinate pos;
+  Coordinate *neighbors;
+  int num_neigbors;
+  uint8 alive, was_alive;
 } Cell;
 
 void init_grid(void);
