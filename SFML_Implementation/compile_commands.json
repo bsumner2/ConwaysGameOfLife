@@ -1,0 +1,62 @@
+[
+ {
+  "directory": "/home/burton/dev/c++/conways",
+  "arguments": [
+   "g++",
+   "-c",
+   "src/render.cpp",
+   "-I./include",
+   "-I/usr/include/freetype2",
+   "-I/usr/include/libpng16",
+   "-I/usr/include/harfbuzz",
+   "-I/usr/include/glib-2.0",
+   "-I/usr/lib/glib-2.0/include",
+   "-I/usr/include/sysprof-4",
+   "-pthread",
+   "-I/usr/include/AL",
+   "-o",
+   "bin/render.o"
+  ],
+  "file": "src/render.cpp"
+ },
+ {
+  "directory": "/home/burton/dev/c++/conways",
+  "arguments": [
+   "g++",
+   "-c",
+   "src/conway.cpp",
+   "-I./include",
+   "-I/usr/include/freetype2",
+   "-I/usr/include/libpng16",
+   "-I/usr/include/harfbuzz",
+   "-I/usr/include/glib-2.0",
+   "-I/usr/lib/glib-2.0/include",
+   "-I/usr/include/sysprof-4",
+   "-pthread",
+   "-I/usr/include/AL",
+   "-o",
+   "bin/conway.o"
+  ],
+  "file": "src/conway.cpp"
+ },
+ {
+  "directory": "/home/burton/dev/c++/conways",
+  "arguments": [
+   "g++",
+   "-c",
+   "src/main.cpp",
+   "-I./include",
+   "-I/usr/include/freetype2",
+   "-I/usr/include/libpng16",
+   "-I/usr/include/harfbuzz",
+   "-I/usr/include/glib-2.0",
+   "-I/usr/lib/glib-2.0/include",
+   "-I/usr/include/sysprof-4",
+   "-pthread",
+   "-I/usr/include/AL",
+   "-o",
+   "bin/main.o"
+  ],
+  "file": "src/main.cpp"
+ }
+]
