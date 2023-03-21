@@ -1,0 +1,26 @@
+[
+ {
+  "directory": "/home/burton/dev/c/conways/TerminalBuffer",
+  "arguments": [
+   "gcc",
+   "-c",
+   "src/main.c",
+   "-I./include",
+   "-o",
+   "bin/main.o"
+  ],
+  "file": "src/main.c"
+ },
+ {
+  "directory": "/home/burton/dev/c/conways/TerminalBuffer",
+  "arguments": [
+   "gcc",
+   "-c",
+   "src/cells.c",
+   "-I./include",
+   "-o",
+   "bin/cells.o"
+  ],
+  "file": "src/cells.c"
+ }
+]
